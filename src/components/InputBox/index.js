@@ -1,13 +1,12 @@
 import React from 'react';
 import './InputBox.css';
-import { MdOutlineAlternateEmail } from 'react-icons/md';
-const InputBox = () => {
+const InputBox = ({ label = '', placehoder = '', Icon = undefined }) => {
   return (
     <div className="inputBox">
-      <label className="inputLabel">E-mail</label>
+      <label className="inputLabel">{label}</label>
       <div className="inputContainer">
-        <input placeholder="test" />
-        <MdOutlineAlternateEmail className="icon" />
+        <input placeholder={placehoder} />
+        {Icon !== undefined ? <Icon className="icon" /> : ''}
       </div>
     </div>
   );

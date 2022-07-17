@@ -1,7 +1,21 @@
 import React from 'react';
+import './Button.css';
 
-const Button = () => {
-  return <div>Button</div>;
+const Button = ({
+  backgroundColor = '',
+  color = '',
+  label = '',
+  Icon = undefined,
+}) => {
+  return (
+    <button
+      className="Button"
+      style={{ backgroundColor: backgroundColor, color: color }}
+    >
+      {Icon !== undefined ? <Icon /> : ''}
+      {label}
+    </button>
+  );
 };
 
 export default Button;

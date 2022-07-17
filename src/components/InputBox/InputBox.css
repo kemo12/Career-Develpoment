@@ -14,14 +14,10 @@
 
 .inputContainer input {
   height: 94%;
-  width: 87%;
+  width: 85%;
   border: none;
   padding-left: 20px;
 }
 .inputContainer input:focus {
   outline: none;
-}
-.icon {
-  margin-top: 9px;
-  color: rgb(214, 214, 214);
 }
