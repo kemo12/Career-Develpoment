@@ -1,0 +1,53 @@
+.Navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  padding: 10px 5px;
+  align-items: center;
+}
+.logo span {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+}
+.menu {
+  display: flex;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+  justify-content: space-between;
+}
+.menu li {
+  padding-left: 30px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+.menu ul li a:hover {
+  color: rgb(46, 125, 245);
+}
+
+.menu button {
+  background: #fff;
+  width: 110px;
+  color: rgb(46, 125, 245);
+  font-size: 20px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 300;
+}
+.menu button:hover {
+  background: rgb(46, 125, 245);
+  color: #fff;
+}

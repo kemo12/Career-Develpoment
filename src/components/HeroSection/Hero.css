@@ -1,0 +1,29 @@
+.heroContianer {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url('./../../assetes/images/hero.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.heroText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heroText h1 {
+  width: 70%;
+  font-size: 55px;
+  text-align: center;
+  color: #fff;
+}
+.heroText p {
+  width: 70%;
+  font-size: 28px;
+  text-align: center;
+  color: #fff;
+}

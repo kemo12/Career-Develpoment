@@ -1,5 +1,12 @@
+/* general css */
 body {
   margin: 0px;
   height: 100%;
   width: 100%;
+}
+
+.generalContainer {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
