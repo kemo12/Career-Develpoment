@@ -1,0 +1,92 @@
+.travelContainer {
+  margin-top: 200px;
+  display: flex;
+  height: 600px;
+}
+.travelLeft {
+  width: 50%;
+  display: flex;
+  height: 100%;
+}
+.travelLeft-L {
+  width: 9%;
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  border-radius: 20px;
+  position: absolute;
+  left: 5.5%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.travelNum {
+  font-size: 30px;
+  color: rgb(46, 125, 245);
+  font-weight: bold;
+}
+.travelTitle {
+  font-size: 12px;
+}
+.travelLeft-R {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: -10.5%;
+  width: 22%;
+}
+.travelLeft-R-content {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  border-radius: 20px;
+}
+.travelLeft-img {
+  width: 85%;
+}
+.travelLeft-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 80px;
+}
+
+.travelRight {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.travelRight span {
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.travelRight p {
+  font-size: 23px;
+  color: rgb(131, 122, 122);
+}
+.contactBtn {
+  width: 100%;
+}
+.travelRight button {
+  display: flex;
+  font-size: 18px;
+  color: rgb(131, 122, 122);
+  padding: 20px 35px;
+  border: none;
+  background-color: rgb(46, 125, 245);
+  color: #fff;
+  border-radius: 5px;
+}
