@@ -1,0 +1,41 @@
+.destinationContainer {
+  margin-top: 200px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.destinationTitle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.destinationTitle span {
+  font-size: 50px;
+  font-weight: bold;
+}
+.destinationTabs {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-around;
+}
+.destinationTabs button {
+  border: none;
+  background: none;
+  font-size: 18px;
+  color: rgb(110, 106, 106);
+  height: 40px;
+  padding: 5px 20px;
+}
+.des-clicked {
+  color: rgb(46, 125, 245) !important;
+  background-color: #fff !important;
+  border-radius: 10px;
+}
+.destinationCards {
+  margin-top: 70px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}

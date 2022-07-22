@@ -1,3 +1,4 @@
+import Destination from '../../components/Destination';
 import Hero from '../../components/HeroSection';
 import Navbar from '../../components/Navbar';
 import Offers from '../../components/Offers';
@@ -12,6 +13,7 @@ const Home = () => {
       <Reservation />
       <Offers />
       <Travel />
+      <Destination />
     </div>
   );
 };
