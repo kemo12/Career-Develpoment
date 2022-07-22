@@ -1,6 +1,6 @@
 .reservationContainer {
-  margin-top: -153px;
-  height: 280px;
+  margin-top: -145px;
+  height: 230px;
 }
 .reservationTabs {
   margin-top: 10px;
@@ -8,13 +8,16 @@
   background-color: #fff;
   display: flex;
   justify-content: space-between;
-  height: 120px;
+  align-items: center;
+  height: 60px;
   border-radius: 20px;
   padding: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 .reservationTabs button {
   border-radius: 20px;
-  height: 60%;
+  height: 80%;
   width: 50%;
   font-size: 20px;
   border: none;
@@ -32,26 +35,64 @@
 .reservationContent {
   padding: auto;
   height: 90%;
-  margin-top: -50px;
   border-radius: 40px;
   background-color: #fff;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border-top-left-radius: 0px;
 }
 .reserveFrom {
   border: 2px solid rgb(218, 206, 206);
-  width: 35%;
+  width: 33%;
   height: 70%;
   border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.reserveFrom div {
+  display: flex;
+  flex-direction: column;
+}
+.midIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed rgb(131, 122, 122);
+  border-radius: 50%;
+  padding: 7px;
+}
+.midIcon {
+  color: rgb(131, 122, 122);
+  font-size: 25px;
 }
 .reserveTo {
   border: 2px solid rgb(218, 206, 206);
-  width: 37%;
+  width: 45%;
   height: 70%;
   border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
+.reserveTo div {
+  display: flex;
+  flex-direction: column;
+}
+.reserveTitle {
+  font-size: 18px;
+  color: rgb(131, 122, 122);
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.reserveLocation {
+  font-weight: bold;
+  font-size: 23px;
+}
+
 .reserveSerach {
   width: 12%;
   height: 70%;
@@ -59,12 +100,13 @@
   align-items: center;
   justify-content: center;
 }
+
 .searchBtn {
-  height: 70%;
+  height: 100%;
   width: 100%;
   font-size: 50px;
   background-color: rgb(46, 125, 245);
-  border-radius: 45%;
+  border-radius: 43%;
   color: #fff;
   border: none;
   display: flex;

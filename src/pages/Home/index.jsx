@@ -1,6 +1,6 @@
-import React from 'react';
 import Hero from '../../components/HeroSection';
 import Navbar from '../../components/Navbar';
+import Offers from '../../components/Offers';
 import Reservation from '../../components/Reservation';
 
 const Home = () => {
@@ -9,6 +9,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Reservation />
+      <Offers />
     </div>
   );
 };

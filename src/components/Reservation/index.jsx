@@ -1,4 +1,3 @@
-import React from 'react';
 import './Reservation.css';
 import { FiSearch } from 'react-icons/fi';
 import { FaHotel } from 'react-icons/fa';
@@ -22,32 +21,42 @@ const Reservation = () => {
       <div className="reservationContent">
         <div className="reserveFrom">
           <div>
-            <span>Living From</span>
-            <span>Dubai</span>
+            <span className="reserveTitle">Living From</span>
+            <span className="reserveLocation">Dubai</span>
+          </div>
+          <div className="midIconContainer">
+            <IoIosAirplane className="midIcon" />
           </div>
           <div>
-            <IoIosAirplane />
-          </div>
-          <div>
-            <span>Going to</span>
-            <span>New York</span>
+            <span className="reserveTitle">Going to</span>
+            <span className="reserveLocation">New York</span>
           </div>
         </div>
         <div className="reserveTo">
           <div>
-            <span>
-              Leave <IoIosAirplane />
+            <span className="reserveTitle">
+              <span className="iconMarginLeft">Leave</span>
+              <IoIosAirplane
+                style={{ marginLeft: '5PX', color: 'rgb(46, 125, 245)' }}
+              />
             </span>
-            <span>23 Jan, Sat</span>
+            <span className="reserveLocation">23 Jan, Sat</span>
+          </div>
+          <div className="midIconContainer">
+            <GoCalendar className="midIcon" />
           </div>
           <div>
-            <GoCalendar />
-          </div>
-          <div>
-            <span>
-              Return <IoIosAirplane style={{ transform: 'rotate(180deg)' }} />
+            <span className="reserveTitle">
+              <span className="iconMarginLeft">Return</span>
+              <IoIosAirplane
+                style={{
+                  transform: 'rotate(180deg)',
+                  marginLeft: '5px',
+                  color: 'rgb(46, 125, 245)',
+                }}
+              />
             </span>
-            <span>12 Jan, Thu</span>
+            <span className="reserveLocation">12 Jan, Thu</span>
           </div>
         </div>
         <div className="reserveSerach">

@@ -1,0 +1,82 @@
+.OffersCard {
+  background-color: #fff;
+  border: 1px rgb(233, 228, 228) solid;
+  height: 390px;
+  width: 30%;
+  border-radius: 40px;
+  padding-left: 20px;
+}
+.offerCardTop {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+.offerCardTopImage {
+  width: 80%;
+}
+.offerCardTopImage img {
+  width: 100%;
+  border-radius: 20px;
+  height: 230px;
+}
+.offerCardTop span {
+  width: 15%;
+  text-align: center;
+  writing-mode: tb-rl;
+  font-size: 20px;
+  color: rgb(102, 99, 99);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.OfferCardMid {
+  margin-top: 10px;
+  color: rgb(102, 99, 99);
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.offerType {
+  background-color: pink;
+  color: rgb(214, 47, 97);
+  padding: 2px 12px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.offerCardTitle {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 23px;
+  font-weight: bold;
+}
+.offerCardPrice {
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  width: 88%;
+  justify-content: space-between;
+  align-items: center;
+}
+.offerCardPriceLeft span {
+  font-size: 19px;
+  color: rgb(102, 99, 99);
+}
+.priceText {
+  color: #000 !important;
+  font-size: 22px !important;
+  font-weight: bold !important;
+}
+.bookNowBtn {
+  width: 90px;
+  height: 40px;
+  border: none;
+  background-color: rgb(233, 244, 252);
+  border-radius: 10px;
+  color: rgb(46, 125, 245);
+}
+.bookNowBtn:hover {
+  background-color: rgb(46, 125, 245);
+  color: rgb(233, 244, 252);
+}
