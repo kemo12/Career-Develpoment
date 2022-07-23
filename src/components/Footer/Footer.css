@@ -1,0 +1,28 @@
+.Footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerLeft {
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  color: rgb(110, 106, 106);
+}
+.footerRight ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+}
+.footerRight li {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0px 0px 0px 50px;
+  color: rgb(41, 40, 40);
+}
+.footerRight li:hover {
+  color: rgb(116, 111, 111);
+}
