@@ -1,9 +1,13 @@
 /* general css */
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assetes/fonts/Poppins-Regular.ttf');
+}
 body {
   margin: 0px;
   height: 100%;
   width: 100%;
-  background-color: aliceblue;
+  background-color: #f7f7f7;
 }
 
 .generalContainer {

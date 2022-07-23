@@ -1,11 +1,12 @@
 .Navbar {
+  font-family: 'Poppins';
   position: absolute;
   top: 0;
   left: 0;
   display: flex;
   height: 60px;
   justify-content: space-between;
-  padding: 10px 5px;
+  padding: 20px 5px;
   align-items: center;
 }
 .logo span {

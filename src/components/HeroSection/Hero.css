@@ -1,11 +1,12 @@
 .heroContianer {
+  font-family: 'Poppins';
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
     url('./../../assetes/images/hero.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 111vh;
   display: flex;
   align-items: center;
 }
