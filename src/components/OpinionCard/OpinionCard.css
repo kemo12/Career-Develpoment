@@ -1,0 +1,66 @@
+.opinionCardContainer {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 350px;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.884),
+      rgba(255, 255, 255, 0)
+    ),
+    url('./../../assetes/images/doubleQuote.png');
+  background-repeat: no-repeat;
+  background-size: 130px;
+  background-position-x: center;
+  background-color: #fff;
+  border-radius: 30px;
+}
+.opinionText {
+  margin-top: 50px;
+  width: 95%;
+  text-align: center;
+  font-size: 24px;
+}
+.opinionCardRate {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-left: -50px;
+  border: 1px solid rgba(194, 193, 193, 0.137);
+}
+.opinionAuthor {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.opinionAuthorName {
+  color: rgb(46, 125, 245);
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.opinionAuthorMode {
+  color: rgb(131, 122, 122);
+  font-size: 25px;
+}
+.opinionImgContainer {
+  padding: 7px;
+  margin-bottom: -75px;
+  height: 29%;
+  width: 28%;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+
+  background-color: #fff;
+}
+.opinionImgContainer img {
+  width: 70%;
+  border-radius: 50%;
+}

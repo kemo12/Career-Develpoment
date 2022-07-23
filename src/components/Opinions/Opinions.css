@@ -1,0 +1,37 @@
+.opinionsContainer {
+  border: 1px solid red;
+  margin-top: 275px;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  margin-bottom: 200px;
+}
+.opinionsCard {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.opinionsControl {
+  height: 100px;
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.controlIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(46, 125, 245);
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.controlIcon:hover {
+  border: 1px solid #fff !important;
+  background-color: #fff;
+}
